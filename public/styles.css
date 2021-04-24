@@ -1,3 +1,50 @@
 body {
   background: white;
 }
+
+h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #1c1c1c;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+header,
+main {
+  max-width: 660px;
+  padding: 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 60px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  line-height: 1.25;
+  font-weight: 600;
+  color: #1c1c1c;
+  margin-bottom: 8px;
+}
+
+time {
+  display: block;
+  font-family: "Source Code Pro", monospace;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: rgb(172, 173, 172);
+}

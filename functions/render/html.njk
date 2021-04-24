@@ -1,18 +1,27 @@
 <html>
   <head>
     <title>Hacker News</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="robots" content="noindex">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Hacker News</h1>
-    <ul>
-    {% for item in items %}
-      <li>
-        <a href="{{ item.link }}" target="_blank">
-          {{ item.title }}
-        </a>
-      </li>
-    {% endfor %}
-    </ul>
+    <header>
+      <h1>Hacker News</h1>
+    </header>
+    <main>
+      <ul>
+        {% for item in items %}
+        <li>
+          <a href="{{ item.link }}" target="_blank">
+            {{ item.title }}
+          </a>
+          <time datetime="{{item.pubDate}}">{{ item.pubDate | date("MMMM DD, YYYY")}}</time>
+        </li>
+        {% endfor %}
+      </ul>
+    </main>
   </body>
 </html>

@@ -5591,6 +5591,11 @@ moize@^6.0.0:
     fast-equals "2.0.0"
     micro-memoize "4.0.9"
 
+moment@^2.9.0:
+  version "2.29.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
+  integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
+
 move-file@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/move-file/-/move-file-1.2.0.tgz#789f92d276c62511d214b1b285aa16e015c2f2fc"
@@ -5933,6 +5938,13 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
+
+nunjucks-date-filter@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/nunjucks-date-filter/-/nunjucks-date-filter-0.1.1.tgz#a936d44d2cc9898d95c6ab7b2aba7084fa60aba6"
+  integrity sha1-qTbUTSzJiY2Vxqt7KrpwhPpgq6Y=
+  dependencies:
+    moment "^2.9.0"
 
 nunjucks@^3.2.3:
   version "3.2.3"
